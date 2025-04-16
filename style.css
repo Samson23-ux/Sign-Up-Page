@@ -1,0 +1,152 @@
+body{
+    background-color: #effdfd;
+}
+.navbar{
+    color: grey;
+}
+.image img{
+    width: 77.33px;
+    height: 80px;
+}
+.image{
+    padding: 150px;
+}
+.image h1{
+    font-size: 40px;
+    font-weight: 700px;
+    width: 268px;
+    color: #000B0A;
+}
+.image p{
+    color: grey;
+}
+.container{
+    display: flex;
+    float: right;
+    margin-top: -520px;
+    margin-right: 600px;
+    height: 679px;
+    width: 590px;
+    background-color: #FFFFFF;
+    border: 6px solid #FFFFFF;
+}
+input{
+    height: 48px;
+    width: 238px;
+}
+.first-name{
+    float: left;
+    margin-left: 20px;
+    border: 2px solid  #2EC4B6;
+}
+.label-first{
+    margin-left: 20px;
+}
+.last-name{
+    float: inline-end;
+    margin-top: -0px;
+    margin-right: 28px;
+    border: 1px solid whitesmoke;
+}
+.label-last{
+    margin-top: -40px;
+    margin-left: 325px;
+}
+.sex select{
+    width: 238px;
+    height: 48px;
+}
+.activity select{
+    width: 500px;
+    height: 48px;
+}
+.passkey input{
+    width: 500px;
+    height: 48px;
+}
+.sex{
+    width: 238px;
+    height: 48px;
+    float: inline-start;
+    margin-left: 20px;
+    width: 250px;
+    border: 1px solid whitesmoke;
+}
+.label-sex{
+    margin-top: 90px;
+    margin-left: 20px;
+}
+.dob{
+    float: inline-end;
+    margin-top: -2px;
+    margin-right: 28px;
+    border: 1px solid whitesmoke;
+}
+.label-dob{
+    margin-top: -40px;
+    margin-left: 325px;
+}
+.weight{
+    float: left;
+    margin-left: 22px;
+    border: 1px solid whitesmoke;
+}
+.label-weight{
+    margin-left: 20px;
+    padding-top: 70px;
+}
+.height{
+    float: inline-end;
+    margin-top: -2px;
+    margin-right: 28px;
+    border: 1px solid whitesmoke;
+}
+.label-height{
+    margin-top: -35px;
+    margin-left: 325px;
+}
+.activity{
+    width: 550px;
+    height: 48px;
+    margin-left: 20px;
+    border: 1px solid whitesmoke;
+}
+.label-activity{
+    margin-left: 20px;
+    padding-top: 70px;
+}
+.password{
+    width: 550px;
+    height: 48px;
+    margin-left: 20px;
+    border: 1px solid whitesmoke;
+}
+.label-password{
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.btn{
+    width: 560px;
+    height: 48px;
+    background-color: #2EC4B6;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    margin: 20px;
+}
+.text{
+    padding-left: 50px;
+    margin-top: -15px;
+}
+.first-name::placeholder{
+    color: grey;
+    padding-left: 10px;
+}
+.weight::placeholder{
+    color: grey;
+    padding-left: 10px;
+}
+.height::placeholder{
+    color: grey;
+    padding-left: 10px;
+}
