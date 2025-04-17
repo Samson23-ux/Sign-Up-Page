@@ -37,7 +37,7 @@ input{
 .first-name{
     float: left;
     margin-left: 20px;
-    border: 2px solid  #2EC4B6;
+    border: 1px solid whitesmoke;
 }
 .label-first{
     margin-left: 20px;
@@ -149,4 +149,28 @@ input{
 .height::placeholder{
     color: grey;
     padding-left: 10px;
+}
+.first-name:hover{
+    border: 2px solid  #2EC4B6;
+}
+.last-name:hover{
+    border: 2px solid  #2EC4B6;
+}
+.sex:hover{
+    border: 2px solid  #2EC4B6;
+}
+.dob:hover{
+    border: 2px solid  #2EC4B6;
+}
+.weight:hover{
+    border: 2px solid  #2EC4B6;
+}
+.height:hover{
+    border: 2px solid  #2EC4B6;
+}
+.activity:hover{
+    border: 2px solid  #2EC4B6;
+}
+.password:hover{
+    border: 2px solid  #2EC4B6;
 }
