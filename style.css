@@ -1,26 +1,32 @@
-body{
+body {
     background-color: #effdfd;
 }
-.navbar{
+
+.navbar {
     color: grey;
 }
-.image img{
+
+.image img {
     width: 77.33px;
     height: 80px;
 }
-.image{
+
+.image {
     padding: 150px;
 }
-.image h1{
+
+.image h1 {
     font-size: 40px;
     font-weight: 700px;
     width: 268px;
     color: #000B0A;
 }
-.image p{
+
+.image p {
     color: grey;
 }
-.container{
+
+.container {
     display: flex;
     float: right;
     margin-top: -520px;
@@ -30,41 +36,50 @@ body{
     background-color: #FFFFFF;
     border: 6px solid #FFFFFF;
 }
-input{
+
+input {
     height: 48px;
     width: 238px;
 }
-.first-name{
+
+.first-name {
     float: left;
     margin-left: 20px;
     border: 1px solid whitesmoke;
 }
-.label-first{
+
+.label-first {
     margin-left: 20px;
 }
-.last-name{
+
+.last-name {
     float: inline-end;
     margin-top: -0px;
     margin-right: 28px;
     border: 1px solid whitesmoke;
 }
-.label-last{
+
+.label-last {
     margin-top: -40px;
     margin-left: 325px;
 }
-.sex select{
+
+.sex select {
     width: 238px;
     height: 48px;
 }
-.activity select{
+
+.activity select {
     width: 500px;
     height: 48px;
 }
-.passkey input{
+
+.passkey input {
     width: 500px;
     height: 48px;
 }
-.sex{
+
+.sex {
     width: 238px;
     height: 48px;
     float: inline-start;
@@ -72,60 +87,76 @@ input{
     width: 250px;
     border: 1px solid whitesmoke;
 }
-.label-sex{
+
+.label-sex {
     margin-top: 90px;
     margin-left: 20px;
 }
-.dob{
+
+.dob {
     float: inline-end;
     margin-top: -2px;
     margin-right: 28px;
     border: 1px solid whitesmoke;
 }
-.label-dob{
+
+.label-dob {
     margin-top: -40px;
     margin-left: 325px;
 }
-.weight{
+
+.weight {
     float: left;
     margin-left: 22px;
     border: 1px solid whitesmoke;
 }
-.label-weight{
+
+.label-weight {
     margin-left: 20px;
     padding-top: 70px;
 }
-.height{
+
+.height {
     float: inline-end;
     margin-top: -2px;
     margin-right: 28px;
     border: 1px solid whitesmoke;
 }
-.label-height{
+
+.label-height {
     margin-top: -35px;
     margin-left: 325px;
 }
-.activity{
+
+.activity {
     width: 550px;
     height: 48px;
     margin-left: 20px;
     border: 1px solid whitesmoke;
 }
-.label-activity{
+
+.activity select{
+    color: grey;
+}
+
+.label-activity {
     margin-left: 20px;
     padding-top: 70px;
 }
-.password{
+
+.password {
     width: 550px;
     height: 48px;
     margin-left: 20px;
     border: 1px solid whitesmoke;
 }
-.label-password{
+
+.label-password {
     margin-left: 20px;
     padding-top: 20px;
 }
-.btn{
+
+.btn {
     width: 560px;
     height: 48px;
     background-color: #2EC4B6;
@@ -134,43 +165,55 @@ input{
     border-radius: 2px;
     margin: 20px;
 }
-.text{
+
+.text {
     padding-left: 50px;
     margin-top: -15px;
 }
-.first-name::placeholder{
+
+.first-name::placeholder {
     color: grey;
     padding-left: 10px;
 }
-.weight::placeholder{
+
+.weight::placeholder {
     color: grey;
     padding-left: 10px;
 }
-.height::placeholder{
+
+.height::placeholder {
     color: grey;
     padding-left: 10px;
 }
-.first-name:hover{
-    border: 2px solid  #2EC4B6;
+
+.first-name:hover {
+    border: 2px solid #2EC4B6;
 }
-.last-name:hover{
-    border: 2px solid  #2EC4B6;
+
+.last-name:hover {
+    border: 2px solid #2EC4B6;
 }
-.sex:hover{
-    border: 2px solid  #2EC4B6;
+
+.sex:hover {
+    border: 2px solid #2EC4B6;
 }
-.dob:hover{
-    border: 2px solid  #2EC4B6;
+
+.dob:hover {
+    border: 2px solid #2EC4B6;
 }
-.weight:hover{
-    border: 2px solid  #2EC4B6;
+
+.weight:hover {
+    border: 2px solid #2EC4B6;
 }
-.height:hover{
-    border: 2px solid  #2EC4B6;
+
+.height:hover {
+    border: 2px solid #2EC4B6;
 }
-.activity:hover{
-    border: 2px solid  #2EC4B6;
+
+.activity:hover {
+    border: 2px solid #2EC4B6;
 }
-.password:hover{
-    border: 2px solid  #2EC4B6;
+
+.password:hover {
+    border: 2px solid #2EC4B6;
 }
