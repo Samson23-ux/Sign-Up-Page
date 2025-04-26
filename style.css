@@ -31,7 +31,7 @@ body {
     float: right;
     margin-top: -520px;
     margin-right: 600px;
-    height: 679px;
+    height: 690px;
     width: 590px;
     background-color: #FFFFFF;
     border: 6px solid #FFFFFF;
@@ -135,7 +135,7 @@ input {
     border: 1px solid whitesmoke;
 }
 
-.activity select{
+.activity select {
     color: grey;
 }
 
@@ -166,9 +166,10 @@ input {
     margin: 20px;
 }
 
-.text {
+.dekstop-text2 {
+    font-size: 15px;
     padding-left: 50px;
-    margin-top: -15px;
+    margin-top: -5px;
 }
 
 .first-name::placeholder {
@@ -216,4 +217,96 @@ input {
 
 .password:hover {
     border: 2px solid #2EC4B6;
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+    .dekstop-text {
+        display: none;
+    }
+
+    .image {
+        padding: 50px;
+        margin-left: -30px;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 327px;
+        height: 960px;
+        margin-right: 10px;
+        margin-top: -30px;
+        background-color: #FFFFFF;
+        border: 6px solid #FFFFFF;
+    }
+
+    .items {
+        max-width: 327px;
+    }
+
+    .form input {
+        border: 1px solid whitesmoke;
+        width: 295px;
+        height: 48px;
+    }
+
+    .label-last {
+        margin-top: 80px;
+        margin-left: 20px;
+        margin-top: 90px;
+    }
+
+    .last-name {
+        float: inline-start;
+        margin-left: 20px;
+    }
+
+    .label-dob,
+    .label-height {
+        margin-top: 80px;
+        margin-left: 20px;
+    }
+
+    .sex {
+        width: 295px;
+    }
+
+    .dob {
+        float: inline-start;
+        margin-left: 20px;
+    }
+
+    .height {
+        float: inline-start;
+        margin-left: 20px;
+    }
+
+    .activity {
+        width: 295px;
+    }
+
+    .btn {
+        width: 295px;
+        height: 48px;
+    }
+
+    .dekstop-text2 {
+        display: none;
+    }
+
+    .mobile-text2 {
+        margin-top: 28px;
+        text-align: center;
+        margin-left: 5px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .mobile-text2 {
+        display: none;
+    }
+
+    .mobile-text {
+        display: none;
+    }
 }
