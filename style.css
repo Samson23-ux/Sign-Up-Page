@@ -250,11 +250,6 @@ input {
         height: 48px;
     }
 
-    .sex select,
-    .activity select {
-        background-color: white;
-    }
-
     .label-last {
         margin-top: 80px;
         margin-left: 20px;
@@ -273,11 +268,12 @@ input {
     }
 
     .sex {
+        background-color: white;
         width: 295px;
     }
 
     .dob {
-        background-color: grey;
+        background-color: white;
         float: inline-start;
         margin-left: 20px;
     }
@@ -288,6 +284,7 @@ input {
     }
 
     .activity {
+        background-color: white;
         width: 295px;
     }
 
